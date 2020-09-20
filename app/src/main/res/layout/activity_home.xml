@@ -1,0 +1,182 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/fondo_app_movil"
+    android:orientation="vertical"
+    tools:context=".HomeActivity">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="130dp"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="170dp"
+            android:layout_height="match_parent"
+            android:paddingLeft="10dp"
+            android:textColor="#fff"
+            android:layout_marginLeft="14dp"
+            android:textSize="26dp"
+            android:gravity="top|bottom"
+            android:layout_gravity="top|bottom"
+            android:textStyle="bold"
+            android:text="Registro De \n Automovil"/>
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:padding="0dp"
+            android:src="@drawable/final_icon"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:orientation="horizontal"
+        android:background="#000">
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingTop="8dp"
+            android:paddingLeft="12dp"
+            android:src="@drawable/account_user"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="#fff"
+            android:textStyle="bold"
+            android:textSize="15dp"
+            android:paddingTop="10dp"
+            android:paddingLeft="10dp"
+            android:text="Usuario"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_marginTop="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@drawable/template_form"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:orientation="vertical"
+        android:layout_marginBottom="20dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:paddingTop="15dp"
+            android:layout_marginLeft="10dp"
+            android:orientation="vertical"
+            android:layout_marginRight="10dp">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Nombre del vehículo"
+                android:textSize="16dp"
+                android:textColor="#0F99AB"/>
+
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="35dp"
+                android:hint="Nombre del vehículo"
+                android:ems="10"
+                android:paddingLeft="10dp"
+                android:layout_marginTop="5dp"
+                android:background="@drawable/edit_place"/>
+
+            <TextView
+                android:layout_marginTop="16dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Placa"
+                android:textSize="16dp"
+                android:textColor="#0F99AB"/>
+
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="35dp"
+                android:hint="Placa del vehículo"
+                android:ems="10"
+                android:paddingLeft="10dp"
+                android:layout_marginTop="5dp"
+                android:background="@drawable/edit_place"/>
+
+            <TextView
+                android:layout_marginTop="16dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Modelo"
+                android:textSize="16dp"
+                android:textColor="#0F99AB"/>
+
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="35dp"
+                android:hint="Modelo del vehículo"
+                android:ems="10"
+                android:paddingLeft="10dp"
+                android:layout_marginTop="5dp"
+                android:background="@drawable/edit_place"/>
+
+            <TextView
+                android:layout_marginTop="16dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Holograma"
+                android:textSize="16dp"
+                android:textColor="#0F99AB"/>
+
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="35dp"
+                android:hint="Holograma"
+                android:ems="10"
+                android:paddingLeft="10dp"
+                android:layout_marginTop="5dp"
+                android:background="@drawable/edit_place"/>
+
+            <TextView
+                android:layout_marginTop="16dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="VIN (Opcional)"
+                android:textSize="16dp"
+                android:textColor="#0F99AB"/>
+
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="35dp"
+                android:hint="Vin"
+                android:ems="10"
+                android:paddingLeft="10dp"
+                android:layout_marginTop="5dp"
+                android:background="@drawable/edit_place"/>
+
+            <Button
+                android:layout_marginTop="10dp"
+                android:layout_gravity="right"
+                android:background="@drawable/buton_home_activty"
+                android:layout_marginRight="10dp"
+                android:layout_width="185dp"
+                android:textColor="#fff"
+                android:textSize="17dp"
+                android:textStyle="bold"
+                android:layout_height="40dp"
+                android:text="Guardar registro"/>
+
+        </LinearLayout>
+
+
+    </LinearLayout>
+
+
+</LinearLayout>

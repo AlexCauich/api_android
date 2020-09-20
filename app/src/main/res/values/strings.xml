@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">Automiviles</string>
+    <string name="brand">Marca del automovil</string>
+    <string name="model">Modelo del automovil</string>
+    <string name="placas">Placas del automovil</string>
+    <string name="fecha_vencimiento">Fecha de vencimiento</string>
+</resources>

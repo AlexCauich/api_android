@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "298696751578",
+    "firebase_url": "https://tekifestapi.firebaseio.com",
+    "project_id": "tekifestapi",
+    "storage_bucket": "tekifestapi.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:298696751578:android:ab190c1899d91e36fe28e3",
+        "android_client_info": {
+          "package_name": "com.example.tekifest_api"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "298696751578-ca9l55bt9kdo0kaimgecblt6redhcr03.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.tekifest_api",
+            "certificate_hash": "941963aeb61300d6e8db3867f58570a46efae7c1"
+          }
+        },
+        {
+          "client_id": "298696751578-3f9e6ngtarsp25k47j6inpp77abvec99.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAZRz-myt0Vs8LMtV4k5LNHUFnKqZG4c6w"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "298696751578-3f9e6ngtarsp25k47j6inpp77abvec99.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
